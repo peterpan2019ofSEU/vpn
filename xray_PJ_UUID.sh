@@ -987,7 +987,7 @@ EOF
 }
 
 vmessKCPConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="4e4bfbc4-2a50-4df1-a31d-4602f3382271"
     local alterid=`shuf -i50-80 -n1`
     cat > $CONFIG_FILE<<-EOF
 {
