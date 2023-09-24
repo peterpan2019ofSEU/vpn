@@ -957,7 +957,7 @@ EOF
 }
 
 vmessConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="4e4bfbc4-2a50-4df1-a31d-4602f3382271"
     local alterid=`shuf -i50-80 -n1`
     cat > $CONFIG_FILE<<-EOF
 {
@@ -987,7 +987,7 @@ EOF
 }
 
 vmessKCPConfig() {
-    local uuid="4e4bfbc4-2a50-4df1-a31d-4602f3382271"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     local alterid=`shuf -i50-80 -n1`
     cat > $CONFIG_FILE<<-EOF
 {
@@ -1029,7 +1029,7 @@ EOF
 }
 
 vmessTLSConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
@@ -1073,7 +1073,7 @@ EOF
 }
 
 vmessWSConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
@@ -1113,7 +1113,7 @@ EOF
 }
 
 vlessTLSConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
@@ -1166,7 +1166,7 @@ EOF
 }
 
 vlessXTLSConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
@@ -1220,7 +1220,7 @@ EOF
 }
 
 vlessWSConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
@@ -1260,7 +1260,7 @@ EOF
 }
 
 vlessKCPConfig() {
-    local uuid="2fea98a3-918a-425c-aafa-91e448b4158e"
+    local uuid="142aac6b-964a-43c5-ab73-a0a3d83df71f"
     cat > $CONFIG_FILE<<-EOF
 {
   "inbounds": [{
